@@ -107,11 +107,13 @@ with col2:
 
                 placeholder.markdown(
                     f"""
-                    <div class='result-container'>
-                        🔥 Calories Burned<br>
-                        <span style='font-size:2.5rem'>{calorie_burned:.2f}</span>
-                    </div>
-                    """,
+                    <div class='result-container' style="color: #00ff99;">
+                    🔥 Calories Burned<br>
+                    <span style="color: #00ff99; font-size: 2.5rem; font-weight: bold;">
+                    {calorie_burned:.2f}
+                </span>
+                </div>
+                """,
                     unsafe_allow_html=True
                 )
 
